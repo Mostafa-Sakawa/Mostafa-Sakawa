@@ -1,0 +1,103 @@
+@font-face {
+	font-family: 'NeoSansArabic';
+	src: url('NeoSansArabic.eot');
+	src: url('NeoSansArabic.eot?#iefix') format('embedded-opentype'),
+	url('NeoSansArabic.woff') format('woff'),
+	url('NeoSansArabic.ttf') format('truetype'),
+	url('NeoSansArabic.otf') format('opentype'),
+	url('NeoSansArabic.svg#NeoSansArabic-Regular') format('svg');
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0020-FEFC;
+}
+@font-face {
+	font-family: 'GE_FLOW_Light';
+	src: url('ge-flow-regular.eot');
+	src: url('ge-flow-regular.eot?#iefix') format('embedded-opentype'),
+	url('ge-flow-regular.svg#VIP Strick') format('svg'),
+	url('ge-flow-regular.woff') format('woff'),
+	url('ge-flow-regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'GE_FLOW_Bold';
+	src: url('ge-flow-bold.eot');
+	src: url('ge-flow-bold.eot?#iefix') format('embedded-opentype'),
+	url('ge-flow-bold.svg#VIP Strick') format('svg'),
+	url('ge-flow-bold.woff') format('woff'),
+	url('ge-flow-bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}     
+
+@font-face {
+	font-family: 'GE_SS_Medium';
+	src: url('ge-ss-med.ttf');
+}
+
+@font-face {
+	font-family: 'Droid_Arabic_Naskh';
+	src: url(//fonts.gstatic.com/ea/droidarabicnaskh/v7/DroidNaskh-Regular.eot);
+	src: url(//fonts.gstatic.com/ea/droidarabicnaskh/v7/DroidNaskh-Regular.eot?#iefix) format('embedded-opentype'),
+	url(//fonts.gstatic.com/ea/droidarabicnaskh/v7/DroidNaskh-Regular.woff2) format('woff2'),
+	url(//fonts.gstatic.com/ea/droidarabicnaskh/v7/DroidNaskh-Regular.woff) format('woff'),
+	url(//fonts.gstatic.com/ea/droidarabicnaskh/v7/DroidNaskh-Regular.ttf) format('truetype');
+	font-style: normal;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: 'Droid_Arabic_Kufi';
+	src: url(//fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Bold.eot);
+	src: url(//fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Bold.eot?#iefix) format('embedded-opentype'),
+	url(//fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Bold.woff2) format('woff2'),
+	url(//fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Bold.woff) format('woff'),
+	url(//fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Bold.ttf) format('truetype');
+	font-style: normal;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: 'Greta_Arabic_Regular';
+    src: url('Greta_Arabic_Regular.eot');
+	src: url('Greta_Arabic_Regular.eot?#iefix') format('embedded-opentype'),
+	url('Greta_Arabic_Regular.woff') format('woff'),
+	url('Greta_Arabic_Regular.otf') format('opentype');
+}
+
+
+@font-face {
+	font-family: 'Helvetica_Regular';
+	src: url('HelveticaNeueW23forSKY-Reg.eot');
+	src: url('HelveticaNeueW23forSKY-Reg.eot?#iefix') format('embedded-opentype'),
+	url('HelveticaNeueW23forSKY-Reg.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Helvetica_Bold';
+	src: url('HelveticaNeueW23forSKY-Bd.eot');
+	src: url('HelveticaNeueW23forSKY-Bd.eot?#iefix') format('embedded-opentype'),
+	url('HelveticaNeueW23forSKY-Bd.woff') format('woff');
+}
+
+.font1 { font-family: 'font1' !important; }
+.font2 { font-family: 'font2' !important; }
+.font3 { font-family: 'font3' !important; }
+.font4 { font-family: 'font4' !important; }
+.font5 { font-family: 'font5' !important; }
+.font6 { font-family: 'font6' !important; }
+.font7 { font-family: 'font7' !important; }
+.font8 { font-family: 'font8' !important; }
+.font9 { font-family: 'font9' !important; }
+.font10 { font-family: 'font10' !important; }
+.font11 { font-family: 'font11' !important; }
+.font12 { font-family: 'font12' !important; }
+.font13 { font-family: 'font13' !important; }
+.font14 { font-family: 'font14' !important; }
+.font15 { font-family: 'font15' !important; }
+.font16 { font-family: 'font16' !important; }
+.font17 { font-family: 'font17' !important; }
+.font17 { font-family: 'font18' !important; }
