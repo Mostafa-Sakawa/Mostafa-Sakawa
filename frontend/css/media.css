@@ -1,0 +1,134 @@
+@media (max-width: 1200px){
+    .slider .owl-theme .owl-nav [class*=owl-]{
+        display: none
+    }
+}
+@media (max-width: 1024px){
+
+}
+@media (max-width: 980px){
+    ul.nav.navbar-nav.navbar-right {
+        margin-right: 0;
+    }
+    .navbar-default .navbar-nav > li > a {
+        margin: 0 15px;
+    }
+    .m_box {
+        text-align: center;
+    }
+    .info_club{
+        margin-top: 30px
+    }
+
+    .banner {
+        text-align: center;
+    }
+    .banner .col-md-8{
+        margin-bottom: 30px;
+    }
+    .slider .xbox{
+        margin-bottom: 30px;
+    }
+    .article .photo{
+        margin: 40px auto
+    }
+    .share{
+        text-align: center
+    }
+}
+@media (max-width: 800px){
+    .slider .owl-prev {
+        left: 20px;
+    }
+    .slider .owl-next {
+        right: 20px;
+    }
+    .sup_menu {
+        padding: 50px 0 30px 0;
+    }
+}
+@media (max-width: 768px){
+
+}
+@media (max-width: 480px){
+    footer{
+        text-align: center
+    }
+    .footer_top .logo {
+        margin-top: 0;
+    }
+    .col-lg-4:last-of-type .voit_tap{
+        margin-bottom: 0
+    }
+    .m_box {
+        padding: 10px;
+    }
+    .info_club li {
+        font-size: 14px;
+        padding: 0 9px;
+    }
+    .form-inline .btn{
+        padding: 0 10px;
+    }
+    header .menu {
+        border-bottom: 1px solid rgba(206, 206, 206, 0.23);
+        padding-bottom: 0;
+    }
+    ul.nav.navbar-nav.navbar-right{
+        margin-top: 15px;
+    }
+    .navbar-default .navbar-nav > li > a{
+        margin: 15px;
+    }
+    header .menu .navbar-default {
+        background: none;
+        border: 0px;
+        margin: 0px;
+        border-radius: 0px;
+        padding: 0px 0 10px 0;
+    }
+    /*********/
+    .live{
+        margin: 0
+    }
+    .iframe{
+        height: 250px !important
+    }
+    /*****/
+    .contact-us {
+        padding: 30px 10px;
+    }
+    .contact-us .foot-in{
+        margin-bottom: 15px;
+    }
+}
+@media (max-width: 360px){
+    .team, .result {
+        display: table;
+        font-size: 18px;
+        margin: 0 auto !important;
+    }
+    .result{
+        margin: 25px auto 20px auto !important;
+    }
+    .content .nav-tabs > li > a {
+        padding: 8px 5px;
+    }
+    .info_club li{
+        display: block;
+        border: none;
+        margin-bottom: 10px;
+    }
+    .footer a {
+        display: inline-block;
+        padding: 1px 8px 3px 8px;
+    }
+    .slider .col-xs-6{
+        width: 100%
+    }
+}
+@media (max-width: 320px){
+    .article .photo img{
+        width: 100%
+    }
+}
