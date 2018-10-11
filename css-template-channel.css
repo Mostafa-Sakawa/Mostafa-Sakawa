@@ -1,0 +1,233 @@
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+@import "";
+
+body {
+    background: rgb(0, 0, 0);
+    overflow: hidden;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.media-control[data-media-control].media-control-hide .media-control-background[data-background] {opacity: 1!important;}
+.media-control[data-media-control] .media-control-background[data-background] {height: 15%!important;}
+.media-control[data-media-control] .media-control-layer[data-controls]{height:38px!important;background-color:rgba(0,0,0,.31);bottom: 0 !important;}
+.media-control[data-media-control].media-control-hide .media-control-layer[data-controls] {
+    bottom: -50px !important;
+}
+.media-control[data-media-control] .media-control-layer[data-controls] .bar-container[data-seekbar]{top: -14px !important;}
+.media-control[data-media-control] .media-control-background[data-background]::before {
+    content: url(https://i.imgur.com/8c7PxLw.png);
+    text-align: center;
+    opacity: 1;
+}
+.media-control[data-media-control] .media-control-layer[data-controls] button.media-control-button[data-hd-indicator].enabled {margin-left:-7px !important;margin-top: -2px;}
+.level_selector[data-level-selector] {margin-top: 10px !important;}
+.media-control[data-media-control] .media-control-layer[data-controls] .drawer-container[data-volume] {
+    float: left !important;
+    margin-right: 0 !important;
+    margin-top: 2px !important;
+}
+.facebook:hover, .image-container:hover, .media-control[data-media-control] .media-control-icon {opacity: 1 !important;}
+.media-control[data-media-control] .media-control-layer[data-controls] button.media-control-button[data-fullscreen] {
+margin-left: 110px;
+}
+.media-control[data-media-control] .media-control-layer[data-controls] button.media-control-button[data-fullscreen]::before {
+    background: url(https://i.imgur.com/8c7PxLw.png) center center/100% no-repeat;
+    width: 105px;
+    height: 26px !important;
+    display: block !important;
+    content: &#39;&#39;;
+    margin-left: -110px;
+    margin-top: -2px;
+    position: absolute;
+}
+
+
+
+.tomboltv {
+    background: #d82121;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-family: &#39;Droid Arabic Kufi&#39;,sans-serif;
+    min-width: 50px;
+    height: 33px;
+    line-height: 33px;
+    padding: 0 42px 0 16px;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: bold;
+    margin-right: 3px;
+    margin-top: 5px;
+}
+.tomboltv::before {
+    content: &quot;\f26c&quot;;
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    right: 0;
+    font: normal normal normal 14px/31px FontAwesome;
+    background: #444;
+    height: 33px;
+    top: 0;
+    width: 30px;
+    border-radius: 0 4px 4px 0;
+}
+.tomboltv1 a:focus, .tomboltv1 a:hover, .tomboltv1 a.active, .tomboltv1 a.active:focus, .tomboltv1 a.active:hover {
+    background: #005c99 none repeat scroll 0 0;
+    transition: .3s all;
+}
+.tomboltv1 {
+    top: 0;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+}
+.c-show.zer1 {
+    position: absolute;
+    bottom: 60px;
+    left: 30px;
+    z-index: 999;
+    background-color: #d82121;
+    font-family: &#39;Droid Arabic Kufi&#39;,sans-serif;
+    font-size: 15px;
+    display: block;
+    line-height: 40px;
+    height: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    padding-left: 35px;
+    color: #fff;
+    width: 88px;
+    overflow: hidden;
+}
+.c-show.zer1::after {
+    content: &quot;\f121&quot;;
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    font-family: FontAwesome;
+    background: #444;
+    height: 40px;
+    top: 0;
+    width: 40px;
+    line-height: 40px;
+    font-size: 25px;
+}
+.c-hide.zer1 {
+    z-index: 99999;
+    display: block;
+    position: absolute;
+    color: #fff;
+    bottom: 60px;
+    margin-bottom: 15px;
+    width: 35px;
+    height: 35px;
+    background-color: #d82121;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 25px;
+    left: 30px;
+}
+.c-hide.zer1 i {
+    display: block;
+    line-height: 33px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+}
+.yalla-vide {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: none;
+    top: 0;
+    overflow: hidden;
+    padding-top: 20%;
+    background: rgba(0, 0, 0, 0.63);
+    z-index: 9999;
+    color: #fff;
+    text-align: center;
+    font-family: &#39;Droid Arabic Kufi&#39;,sans-serif;
+}
+#code_code {
+    display: block;
+    position: relative;
+    border: 0;
+    margin: 5px auto;
+    border-radius: 5px;
+    width: 90%;
+    height: 65px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #fff;
+    text-align: left;
+    max-width: 600px;
+    overflow-y: hidden;
+    background: rgba(255,255,255,0.26);
+    padding: 5px;
+}
+.custom-btn {
+    background: rgb(216, 33, 33);
+    color: #fff;
+    cursor: pointer;
+    border: 0;
+    font-size: 16px;
+    font-family: arial;
+    padding: 5px 16px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+@media screen and (max-width:800px){.extra-padding {bottom: 70px}}
+
+
+
+
+.tomboltv .quality-info {
+    position: absolute;
+    top: 150%;
+    background: #fff;
+    padding: 0;
+    left: 0;
+    z-index: 9999999999;
+    border-radius: 5px;
+    opacity: 0;
+    visibility: hidden;
+    min-width: 100%;
+    transition: .3s all;
+    float: right;
+    border-bottom: 1px solid #e3e3e3;
+}
+.tomboltv:hover .quality-info {
+    opacity: 1;
+    visibility: visible;
+    top: 60%;
+    transition: .3s all;
+}
+.tomboltv .quality-info::before {
+    content: &quot; &quot;;
+    position: absolute;
+    top: -20px;
+    left: 42%;
+    border-bottom: 10px solid #fff;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid transparent;
+}
+.tomboltv .quality-info li {
+    display: block;
+    position: relative;
+    line-height: 35px;
+    text-align: center;
+    color: #211202;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 0 5px;
+    border-bottom: 1px solid #e3e3e3;
+}
